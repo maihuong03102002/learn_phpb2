@@ -3,9 +3,10 @@ function sortArray($arr){
     sort($arr);
     return $arr;
 }
-$arr = [3,2,9,20];
+$arr = [3,2,9,20,5];
 $sortedArray = sortArray($arr);
-echo "Mảng sắp xếp tăng dần :";
+echo "Ascending array: <br>[";
 foreach($sortedArray as $Value){
-    echo $Value. " ";
+    echo $Value. " , ";
 }
+echo "]";
